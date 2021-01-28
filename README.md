@@ -1,7 +1,7 @@
 #FMCW RADAR Signal Processing
 
 # Project Workflow
-<img src="media/project_workflow.png" width="884" height="502" />
+<img src="media/project_flow.png" width="884" height="502" />
 
 ## Visualization of results
 
