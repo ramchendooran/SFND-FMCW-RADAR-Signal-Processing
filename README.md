@@ -1,15 +1,15 @@
-#FMCW RADAR Signal Processing
+# FMCW RADAR Signal Processing
 
-# Project Workflow
+## Project Workflow
 <img src="media/project_flow.png" width="884" height="502" />
 
 ## Visualization of results
 
-# Range Dopple Map
+## Range Dopple Map
 
 <img src="media/2DFFTRangeDopplerMap.jpg" width="700" height="525" />
 
-# 2D CFAR
+## 2D CFAR
 
 <img src="media/2DCFAR.jpg" width="700" height="525" />
 
