@@ -1,7 +1,7 @@
 #FMCW RADAR Signal Processing
 
 # Project Workflow
-<img src="media/project_workflow.jpg" width="884" height="502" />
+<img src="media/project_workflow.png" width="884" height="502" />
 
 ## Visualization of results
 
@@ -27,7 +27,7 @@
 	iv) Convert average into decibells.
 	v) Carry out thresholding: If value in Cell under test is greater than threshold, value in cell under test is made 1.
 
-## Selection of Training, Guard cells and offset**
+## Selection of Training, Guard cells and offset
 
 1. Selection of Training cells
 Optimization experience: 
@@ -50,7 +50,7 @@ If a higher offset is used, signal will be identified as noise (False negative)
 If a lower offset is used, noise is identified as signal (False positive)
 Taking this into consideration, the offset is optimised.
 
-## Steps taken to suppress the non-thresholded cells at the edges**
+## Steps taken to suppress the non-thresholded cells at the edges
 
 The signal_CFAR(To store thresholded signal) variable was initialized with zeros before entering the loop.
 This variable was a matrix of same size of Range Doppler map.
